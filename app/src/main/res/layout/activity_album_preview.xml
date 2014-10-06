@@ -1,0 +1,17 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridView
+        style="@style/PhotoGridLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/albumPreviewGridView"
+        android:columnWidth="@dimen/image_thumbnail_small_size"
+        android:horizontalSpacing="@dimen/image_thumbnail_spacing"
+        android:verticalSpacing="@dimen/image_thumbnail_spacing"
+        android:layout_gravity="center_horizontal|top"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit" />
+</FrameLayout>
